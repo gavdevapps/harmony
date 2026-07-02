@@ -1,0 +1,200 @@
+<!doctype html>
+<!--
+  Harmony — Privacy Policy
+  Copyright (c) 2026 Gorbachenko Anton <nopr0@icloud.com>
+  All rights reserved. Author attribution must be retained.
+  Single self-contained file — host on any static host (GitHub Pages, Gist,
+  Telegra.ph, Notion, Google Sites) and give the URL to the app stores.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Gorbachenko Anton" />
+  <meta name="robots" content="index,follow" />
+  <title>Harmony — Privacy Policy / Политика конфиденциальности</title>
+  <style>
+    :root{
+      --night:#0B1220; --deep:#0E2233; --panel:rgba(255,255,255,.05);
+      --border:rgba(255,255,255,.10); --text:#EAF0F7; --muted:#8D9AAE; --cool:#5EEAD4;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0}
+    body{
+      background:radial-gradient(120% 80% at 50% 0%, var(--deep) 0%, var(--night) 55%, #070C16 100%);
+      color:var(--text); min-height:100vh;
+      font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+      line-height:1.6; -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:760px; margin:0 auto; padding:48px 22px 72px}
+    header{display:flex; align-items:center; gap:14px; margin-bottom:8px}
+    .orb{width:46px;height:46px;border-radius:50%;flex:0 0 auto;
+      background:radial-gradient(circle at 35% 30%,#DFFBF5 0%,#5EEAD4 35%,#2FA9C9 72%,#2A6E96 100%);
+      box-shadow:0 6px 26px rgba(47,201,176,.35)}
+    h1{font-size:24px;font-weight:600;margin:0;letter-spacing:.01em}
+    .sub{color:var(--muted);font-size:14px;margin:2px 0 0}
+    .meta{color:var(--muted);font-size:13px;margin:18px 0 26px}
+    .toggle{display:inline-flex;gap:6px;margin:18px 0 6px;background:var(--panel);
+      border:1px solid var(--border);border-radius:999px;padding:4px}
+    .toggle button{all:unset;cursor:pointer;padding:7px 16px;border-radius:999px;font-size:14px;color:var(--muted)}
+    .toggle button[aria-pressed="true"]{background:rgba(94,234,212,.16);color:var(--cool)}
+    h2{font-size:17px;font-weight:600;margin:30px 0 8px}
+    p{margin:0 0 12px}
+    ul{margin:0 0 12px;padding-inline-start:20px}
+    li{margin:4px 0}
+    a{color:var(--cool)}
+    strong{color:#fff;font-weight:600}
+    table{width:100%;border-collapse:collapse;margin:10px 0 14px;font-size:14px}
+    th,td{text-align:left;padding:9px 12px;border:1px solid var(--border);vertical-align:top}
+    th{background:var(--panel);font-weight:600}
+    .note{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:14px 16px;color:var(--muted);font-size:14px;margin:14px 0}
+    footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:13px;text-align:center}
+    [hidden]{display:none !important}
+    @media (max-width:520px){.wrap{padding:32px 16px 56px}h1{font-size:21px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="orb" aria-hidden="true"></div>
+      <div>
+        <h1>Harmony</h1>
+        <p class="sub">Privacy Policy · Политика конфиденциальности</p>
+      </div>
+    </header>
+
+    <div class="toggle" role="group" aria-label="Language / Язык">
+      <button id="btn-en" aria-pressed="true" onclick="setLang('en')">English</button>
+      <button id="btn-ru" aria-pressed="false" onclick="setLang('ru')">Русский</button>
+    </div>
+
+    <!-- ============================ ENGLISH ============================ -->
+    <section id="en" lang="en">
+      <p class="meta">App: <strong>Harmony</strong> · Developer: <strong>Gorbachenko Anton</strong> · Contact: <a href="mailto:nopr0@icloud.com">nopr0@icloud.com</a> · Last updated: <strong>27 June 2026</strong></p>
+
+      <h2>1. Summary</h2>
+      <p>Harmony is a breathing and grounding app designed to run entirely on your device. <strong>We do not collect, transmit, sell, or share any personal data.</strong> The app has no user accounts and makes no network connections to us or to third parties.</p>
+
+      <h2>2. Information we do not collect</h2>
+      <p>We do not collect, process, or have access to any of the following: name, email, phone number, contacts, location, device identifiers, advertising identifiers, health or fitness records, usage analytics, crash logs, cookies, or any other personal or sensitive information.</p>
+
+      <h2>3. Information stored on your device</h2>
+      <p>To remember your preferences, the app saves a small amount of data <strong>locally on your device only</strong>, using your device's local storage:</p>
+      <ul>
+        <li>chosen interface language;</li>
+        <li>selected breathing technique and round length;</li>
+        <li>vibration and sound settings;</li>
+        <li>a counter of completed sessions (a number).</li>
+      </ul>
+      <p>This information never leaves your device, is never sent to any server, and is permanently removed when you delete the app.</p>
+
+      <h2>4. Permissions</h2>
+      <p>On Android, the app may request the <strong>Vibration</strong> permission to provide optional haptic cues during breathing. It is used only for that purpose and can be disabled in the app's settings. The app requests no other permissions, and does not access the camera, microphone, location, contacts, or storage.</p>
+
+      <h2>5. No third parties, tracking, or ads</h2>
+      <p>Harmony contains <strong>no advertising, no analytics, no trackers, and no third-party SDKs</strong> that collect data. It works fully offline; an internal service worker caches the app's own files on your device so it can open without a connection — this involves no data leaving your device.</p>
+
+      <h2>6. Children's privacy</h2>
+      <p>The app is rated for ages 4+. Because it collects no data from anyone, it does not knowingly collect personal information from children, in line with COPPA and similar laws.</p>
+
+      <h2>7. Your rights and regional notes</h2>
+      <ul>
+        <li><strong>EEA / UK (GDPR):</strong> The developer does not collect or process your personal data, so there is no controller-side processing to access, rectify, or erase. Data stored locally is fully under your control and removed by uninstalling.</li>
+        <li><strong>California (CCPA/CPRA):</strong> We do not collect or "sell" or "share" personal information as defined by California law.</li>
+        <li><strong>Russia (152-ФЗ):</strong> The app does not collect or transmit personal data of users; processing of personal data within the meaning of Federal Law No. 152-FZ does not take place on the developer's side.</li>
+      </ul>
+
+      <h2>8. Data safety summary</h2>
+      <table>
+        <tr><th>Data collected</th><td>None</td></tr>
+        <tr><th>Data shared with third parties</th><td>None</td></tr>
+        <tr><th>Data transmitted off device</th><td>None</td></tr>
+        <tr><th>Stored on device</th><td>Preferences and a session counter (local only)</td></tr>
+        <tr><th>Encryption in transit</th><td>Not applicable — no data is transmitted</td></tr>
+        <tr><th>Data deletion</th><td>Uninstalling the app removes all stored data</td></tr>
+      </table>
+
+      <h2>9. Medical disclaimer</h2>
+      <p>Harmony provides relaxation and breathing exercises. It is not a medical device and is not a substitute for professional care. If anxiety persists or becomes hard to bear, please consult a doctor or someone you trust.</p>
+
+      <h2>10. Changes to this policy</h2>
+      <p>If this policy changes, the updated version will be posted on this page with a new "Last updated" date.</p>
+
+      <h2>11. Contact</h2>
+      <p>Gorbachenko Anton — <a href="mailto:nopr0@icloud.com">nopr0@icloud.com</a></p>
+    </section>
+
+    <!-- ============================ РУССКИЙ ============================ -->
+    <section id="ru" lang="ru" hidden>
+      <p class="meta">Приложение: <strong>Harmony</strong> · Разработчик: <strong>Gorbachenko Anton</strong> · Контакт: <a href="mailto:nopr0@icloud.com">nopr0@icloud.com</a> · Обновлено: <strong>27 июня 2026</strong></p>
+
+      <h2>1. Кратко</h2>
+      <p>Harmony — приложение для дыхательных практик и заземления, которое работает полностью на вашем устройстве. <strong>Мы не собираем, не передаём, не продаём и не передаём третьим лицам никакие персональные данные.</strong> В приложении нет аккаунтов, и оно не устанавливает сетевых соединений ни с нами, ни с третьими лицами.</p>
+
+      <h2>2. Какие данные мы не собираем</h2>
+      <p>Мы не собираем, не обрабатываем и не имеем доступа к: имени, e-mail, номеру телефона, контактам, геолокации, идентификаторам устройства, рекламным идентификаторам, данным о здоровье или физической активности, аналитике использования, журналам сбоев, cookie и любой иной персональной или чувствительной информации.</p>
+
+      <h2>3. Данные, хранящиеся на устройстве</h2>
+      <p>Чтобы запоминать ваши настройки, приложение сохраняет небольшой объём данных <strong>только локально на вашем устройстве</strong> (в локальном хранилище):</p>
+      <ul>
+        <li>выбранный язык интерфейса;</li>
+        <li>выбранная техника дыхания и длительность раунда;</li>
+        <li>настройки вибрации и звука;</li>
+        <li>счётчик завершённых сеансов (число).</li>
+      </ul>
+      <p>Эта информация никогда не покидает устройство, не отправляется ни на какой сервер и полностью удаляется при удалении приложения.</p>
+
+      <h2>4. Разрешения</h2>
+      <p>На Android приложение может запрашивать разрешение <strong>«Вибрация»</strong> для опциональных тактильных подсказок во время дыхания. Оно используется только для этого и отключается в настройках. Других разрешений приложение не запрашивает и не обращается к камере, микрофону, геолокации, контактам или хранилищу.</p>
+
+      <h2>5. Без третьих лиц, трекинга и рекламы</h2>
+      <p>В Harmony <strong>нет рекламы, аналитики, трекеров и сторонних SDK</strong>, собирающих данные. Приложение работает полностью офлайн; встроенный service worker кэширует собственные файлы приложения на устройстве, чтобы оно открывалось без сети — при этом никакие данные устройство не покидают.</p>
+
+      <h2>6. Конфиденциальность детей</h2>
+      <p>Возрастной рейтинг приложения — 4+. Поскольку оно не собирает данные ни у кого, оно не собирает осознанно персональные данные детей в соответствии с COPPA и аналогичными нормами.</p>
+
+      <h2>7. Ваши права и региональные положения</h2>
+      <ul>
+        <li><strong>ЕЭЗ / Великобритания (GDPR):</strong> разработчик не собирает и не обрабатывает ваши персональные данные, поэтому на стороне оператора нет обработки, к которой нужен доступ, исправление или удаление. Данные, хранящиеся локально, полностью под вашим контролем и удаляются вместе с приложением.</li>
+        <li><strong>Калифорния (CCPA/CPRA):</strong> мы не собираем, не «продаём» и не «передаём» персональные данные в значении законодательства Калифорнии.</li>
+        <li><strong>Россия (152-ФЗ):</strong> приложение не собирает и не передаёт персональные данные пользователей; обработка персональных данных в смысле Федерального закона № 152-ФЗ на стороне разработчика не осуществляется.</li>
+      </ul>
+
+      <h2>8. Сводка по безопасности данных</h2>
+      <table>
+        <tr><th>Сбор данных</th><td>Нет</td></tr>
+        <tr><th>Передача третьим лицам</th><td>Нет</td></tr>
+        <tr><th>Передача за пределы устройства</th><td>Нет</td></tr>
+        <tr><th>Хранение на устройстве</th><td>Настройки и счётчик сеансов (только локально)</td></tr>
+        <tr><th>Шифрование при передаче</th><td>Неприменимо — данные не передаются</td></tr>
+        <tr><th>Удаление данных</th><td>Удаление приложения стирает все сохранённые данные</td></tr>
+      </table>
+
+      <h2>9. Медицинская оговорка</h2>
+      <p>Harmony предоставляет упражнения для релаксации и дыхания. Это не медицинское изделие и не замена помощи специалиста. Если тревога не проходит или её тяжело выносить — обратитесь к врачу или к тому, кому доверяете.</p>
+
+      <h2>10. Изменения политики</h2>
+      <p>При изменении политики обновлённая версия будет опубликована на этой странице с новой датой «Обновлено».</p>
+
+      <h2>11. Контакт</h2>
+      <p>Gorbachenko Anton — <a href="mailto:nopr0@icloud.com">nopr0@icloud.com</a></p>
+    </section>
+
+    <footer>© 2026 Gorbachenko Anton · nopr0@icloud.com</footer>
+  </div>
+
+  <script>
+    function setLang(l){
+      var en = document.getElementById('en'), ru = document.getElementById('ru');
+      var bEn = document.getElementById('btn-en'), bRu = document.getElementById('btn-ru');
+      var isEn = l === 'en';
+      en.hidden = !isEn; ru.hidden = isEn;
+      bEn.setAttribute('aria-pressed', String(isEn));
+      bRu.setAttribute('aria-pressed', String(!isEn));
+      document.documentElement.lang = l;
+    }
+    // если у пользователя системный язык русский — показать RU по умолчанию
+    if ((navigator.language || 'en').toLowerCase().indexOf('ru') === 0) setLang('ru');
+  </script>
+</body>
+</html>
